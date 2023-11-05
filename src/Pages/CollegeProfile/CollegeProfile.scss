@@ -1,0 +1,157 @@
+.college-profile {
+  background-color: whitesmoke;
+
+  .images {
+    width: 100%;
+    height: 35vh;
+    position: relative;
+
+    .coverImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .logoImg {
+      width: 25vh;
+      height: 25vh;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 20vh;
+    }
+  }
+  .profileContainer {
+    padding: 20px 50px;
+
+    // @include mobile {
+    //   padding: 10px;
+    // }
+
+    // @include tablet {
+    //   padding: 20px;
+    // }
+
+    .uInfo {
+      height: 40vh;
+      box-shadow: 1px 1px 8px 5px #dedede;
+      border-radius: 10px;
+      background-color: white;
+      color: black;
+    //   padding: 4vh;
+      padding-top: 5vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4vh;
+      //   margin-bottom: 5vh;
+      .clgInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        span.clgName {
+            font-size: 28px;
+            font-weight: 500;
+          }
+          .item {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            color: rgb(78, 77, 77);
+    
+            span {
+              font-size: 14px;
+            }
+          }
+      }
+      
+      .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        
+        .left {
+          flex: 1;
+          display: flex;
+          align-items: end;
+          gap: 10px;
+
+          a {
+            color: black;
+            svg {
+              height: 20px;
+              width: 20px;
+            }
+          }
+        }
+        .center {
+          flex: 4;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+          button {
+            border: none;
+            padding: 3px;
+            width: 50px;
+            font-size: 13px;
+            color: white;
+            background: rgb(10, 118, 203);
+            background: linear-gradient(
+              209deg,
+              rgba(10, 118, 203, 1) 62%,
+              rgba(8, 3, 126, 1) 100%
+            );
+            border-radius: 10px;
+          }
+        }
+        .right {
+          flex: 1;
+          display: flex;
+          align-items: center;
+
+          justify-content: flex-end;
+          gap: 10px;
+          border: none;
+        }
+      }
+      .clg-profile-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 2vh;
+        hr{
+            color: lightgrey;
+            // border: 1px solid black;
+            width: 100%;
+            margin: 0;
+            opacity: .5;
+          }
+          .clg-nav{
+            width: 100%;
+            padding-left: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 5vh;
+            a{
+                text-decoration: none;
+            }
+            .nav-item{
+                
+                color: grey;
+            }
+          }
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.right{
+    flex:3;
+    border-left: 1px solid lightgrey;
+    .item{
+        span{
+
+        }
+        p{
+            font-size: 13px;
+            margin: 0;
+        }
+    }
+    hr{
+        margin: 0;
+    }
+}

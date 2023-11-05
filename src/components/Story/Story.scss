@@ -1,0 +1,16 @@
+.stories{
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    margin-bottom: 30px;
+    
+    .story{
+        flex:1;
+        overflow: hidden;
+        border-radius: 10px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

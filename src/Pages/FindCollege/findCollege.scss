@@ -1,0 +1,117 @@
+.findCollege{
+    // margin: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    background-color: whitesmoke;
+
+    .carousel{
+        // margin: 5vh;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 5px #d3d3d3;
+        z-index: 3;
+        position: relative;
+        button{
+            background: white;
+            
+        }
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: 6;
+            position: absolute;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            button{
+                color: black;
+                background: white;
+            }
+        }
+    }
+    .search{
+        // height: 10px;
+    }
+    .colleges{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5vw;
+        .list{
+            flex: 4;
+            width: 70vw;
+            box-shadow: 1px 1px 8px 5px #c9c9c9a8;
+            background-color: white;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .listItem{
+                width: 100%;
+                display: flex;
+                padding: 20px;
+                gap: 30px;
+                // align-items: center;
+                // justify-content: center;
+                height: 20vh;
+                border-bottom:1px solid lightgrey;
+                img{
+                    height: 70px;
+                    width: 70px;
+                    // border-radius: 50%;
+                }
+                span{
+                    font-size: 16px;
+                }
+            }
+        }
+        .filterSort{
+            flex: 2;
+            flex-direction: column;
+            align-items: center;
+            width: 5vw;
+            box-shadow: 1px 1px 8px 5px #c1c0c1a8;
+            border-radius: 5px;
+            background-color: white;
+            .filter{
+                span{
+                    padding: 10px 20px;
+                    color: grey;
+                }
+                hr{
+
+                }
+                .item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    span{
+                        color: black;
+                    }
+                    .radio{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                button{
+                    display: flex;
+                    border: none;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    background: #f0ebf9;
+                    color:grey;
+                    font-size: 12px;
+                }
+            }
+            .sort{
+
+            }
+        }
+    }
+}

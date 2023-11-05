@@ -1,0 +1,119 @@
+.resources {
+  margin: 5vh;
+  .addSection {
+    background-color: white;
+    box-shadow: 1px 1px 8px 5px #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    span{
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      // align-items: center;
+      justify-content: center;
+      gap: 3vh;
+      border-radius: 5px;
+      background-color: white;
+      padding: 5vh;
+      width: 50vw;
+    
+
+      label {
+        color: grey;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        gap: 1vh;
+        select {
+          width: 10vw;
+        font-size: 14px;
+        border: none;
+        
+        border-bottom: 1px solid grey;
+
+        }
+        input {
+          width: 30vw;
+        font-size: 14px;
+        
+        border: none;
+        border-bottom: 1px solid grey;
+
+
+        }
+      }
+      .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            width: 10vw;
+            height: 5vh;
+            font-size: 14px;
+           
+            border: none;
+            border-radius: 15px;
+            background: linear-gradient(145deg, rgb(20, 2, 98) 20%, rgb(39, 186, 248) 100%);
+            color: white;
+    
+          }
+      }
+      
+    }
+  }
+  .viewSection{
+    margin-top: 5vw;
+    background-color: white;
+    border-radius: 10px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vh;
+    box-shadow: 1px 1px 8px 5px #d8d8d8;
+
+    span{
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    table{
+      margin: 3vh;
+      border: 1px solid black;
+      border-radius: 10px;
+      width: 40vw;
+      thead{
+        tr{
+          border: 1px solid black;
+          th{
+            padding: 1vh;
+            align-items: center;
+          }
+        }
+      }
+      tbody{
+        tr{
+          td{
+            padding: 1vh;
+            align-items: center;
+            font-size: 14px;
+            button{
+              border: none;
+              background: rgb(241, 155, 155);
+              color: rgb(200, 13, 13);
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.clg {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  .basic{
+    display: flex;
+    flex-direction: column;
+    margin: 4vw;
+    margin-bottom: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5vh;
+    font-family: "Poppins", sans-serif;
+    .title{
+      span{
+        font-size: 15px;
+          font-weight: bold;
+      }
+    }
+    .deatils{
+      font-size: 13px;
+      table{
+        border: none;
+        
+        tr{
+          display: flex;
+          gap: 10px;
+          td{
+            padding: 1vh;
+
+          }
+        }
+      }
+    }
+  }
+  .section {
+    margin: 4vw;
+    margin-bottom: 1vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+
+    .item {
+      height: 25vh;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .title {
+        display: flex;
+        justify-content: space-between;
+        .icon {
+          flex: 1;
+          display: flex;
+          justify-content: end;
+        }
+
+        span {
+          flex: 6;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 15px;
+          font-weight: bold;
+        }
+      }
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+      }
+      
+    }
+    table{
+      width: 100%;
+      border: 1px solid lightgrey;
+      
+      thead{
+        border: 1px solid lightgrey;
+      }
+      tr{
+        td,th{
+          
+          padding: 3px;
+        }
+        
+      }
+      
+    }
+    .vl {
+      border-left: 1px solid lightgrey;
+      height: 20vh;
+    }
+  }
+}

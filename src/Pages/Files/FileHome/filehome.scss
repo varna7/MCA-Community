@@ -1,0 +1,37 @@
+.file-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+  .file-home-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .file-home-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  
+    .file-home-add-file-btn {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+  
+      &:hover {
+        background-color: #388e3c;
+      }
+    }
+  
+    .file-home-create-folder-btn {
+      background-color: #2196f3;
+      color: #fff;
+      padding: 10px 20px;
+     
+    }
+}  

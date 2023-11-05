@@ -1,0 +1,97 @@
+.main {
+    height: 100%;
+    width: 100%;
+    
+    .body {
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      height: 80vh;
+      margin: 10vh;
+      box-shadow: 1px 1px 8px 5px #f8f6fc;
+      border-radius: 10px;
+      flex-direction: column;
+      background-color: white;
+      gap: 30px;
+      .head {
+        padding: 20px;
+        span {
+          font-family: "Lora", serif;
+          letter-spacing: 0.5vh;
+          font-size: 20px;
+        }
+      }
+      .content {
+        box-shadow: none;
+        font-family: "Josefin Sans", sans-serif;
+        max-width: 90%;
+        table {
+          border: 1px solid lightgrey;
+          color: rgb(72, 71, 71);
+          max-width: 70vw;
+          tr {
+          
+            button.active{
+              margin: 4px;
+              background: rgb(205, 244, 205);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+              border-radius: 40px;
+              color:green ;
+              font-size: 13px;
+              height: 20px;
+              .dot{
+                  background: green;
+                  width: 8px;
+                  height: 8px;
+                  border-radius: 50%;
+              }
+            }
+            button.pending{
+              margin: 4px;
+              background: rgb(243, 243, 199);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+              border-radius: 40px;
+              color:rgb(255, 213, 0) ;
+              font-size: 13px;
+              height: 20px;
+              .dot{
+                  background: rgb(255, 213, 0);
+                  width: 8px;
+                  height: 8px;
+                  border-radius: 50%;
+              }
+            }
+  
+            td.buttons {
+              display: flex;
+              gap: 20px;
+              button {
+                border: none;
+                width: 40px;
+                height: 30px;
+                border-radius: 5px;
+                padding: 0.5px;
+                color: white;
+                cursor: pointer;
+                font-size: 13px;
+  
+                &:first-child {
+                  background: rgb(16, 3, 246);
+                }
+                &:last-child {
+                  background: rgb(167, 2, 2);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

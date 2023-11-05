@@ -1,0 +1,25 @@
+.admin-post-main{
+    flex: 7;
+    padding: 15vh;
+    padding-top: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    align-items: flex-end;
+    button{
+        padding: 2vh;
+        background:rgb(0, 0, 59);
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        color: white;
+    }
+    button.btn-close{
+        background: none;
+        color: black;
+    }
+    .modal-content{
+        width: 90vh;
+    }
+}

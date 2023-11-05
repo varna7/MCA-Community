@@ -1,0 +1,54 @@
+.add-file-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    width: 400px;
+  
+    .add-file-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .add-file-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+  
+      .add-file-form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+  
+        label {
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+  
+        input[type="file"] {
+          margin-top: 5px;
+        }
+  
+        p {
+          margin: 5px 0;
+          font-size: 14px;
+        }
+      }
+  
+      .add-file-submit-btn {
+        background-color: #2196f3;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+      }
+    }
+}
+  
